@@ -22,4 +22,11 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    
+   <distributionManagement>
+        <repository>
+            <id>mipagar-public-repository-group</id>
+            <url>http://nexus.mipagar.com/content/repositories/mipagar-public/</url>
+        </repository>
+    </distributionManagement>
 </project>
