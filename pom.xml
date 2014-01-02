@@ -23,10 +23,19 @@
         </dependency>
     </dependencies>
     
-   <distributionManagement>
+    <distributionManagement>
         <repository>
-            <id>mipagar-public-repository-group</id>
-            <url>http://nexus.mipagar.com/content/repositories/mipagar-public/</url>
+            <id>billingstreet-private</id>
+            <url>http://nexus.billingstreet.com:8181/nexus/content/repositories/releases</url>
         </repository>
+        <snapshotRepository>
+            <id>billingstreet-private</id>
+            <url>http://nexus.billingstreet.com:8181/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
     </distributionManagement>
+    
+    <scm>
+        <url>http://github.com/mipagar/mipagar-exact</url>
+        <connection>scm:git:git@github.com:mipagar/mipagar-exact.git</connection>
+    </scm>
 </project>
